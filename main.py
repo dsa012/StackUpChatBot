@@ -51,6 +51,7 @@ index = VectorStoreIndex.from_vector_store(
 )
 
 st.header("StackUp Helpdesk Bot 🤖")
+st.write("Only 5 queries are supported every 1 min, so if you face an error pls wait and try again")
 st.markdown("---")
 
 # User prompt and response handling

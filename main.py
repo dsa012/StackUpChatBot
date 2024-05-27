@@ -19,8 +19,8 @@ st.set_page_config(
 load_dotenv()
 
 # Constants for database connection and API keys
-ATLAS_URI = os.getenv('ATLAS_URI')
-EDEN_API_KEY = os.getenv("EDEN_API_KEY")
+ATLAS_URI = st.secrets['ATLAS_URI']
+EDEN_API_KEY = st.secrets["EDEN_API_KEY"]
 
 DB_NAME = "stackup_zendesk"
 COLLECTION_NAME = "data"

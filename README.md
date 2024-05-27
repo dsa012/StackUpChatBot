@@ -44,3 +44,5 @@ StackUp Helpdesk Bot is an AI-powered application designed to help users quickly
   ```
 9. Visit localhost:8501 to use the streamlit application.
 
+## Demo:
+https://github.com/dsa012/StackUpChatBot/assets/140321591/17b5f1c2-7cf7-442a-a1c4-a7d4d67366e9
